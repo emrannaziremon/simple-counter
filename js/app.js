@@ -21,14 +21,3 @@ reset.addEventListener('click', function() {
     count = 0;
     value.textContent = count;
 })
-
-if(counter < 0) {
-    value.style.color = 'red';
-} 
-if (counter > 0) {
-    value.style.color = 'green'
-}
-if(counter === 0) {
-    value.style.color = 'black'
-}
-value.textContent = counter;
